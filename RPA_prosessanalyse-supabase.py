@@ -15,8 +15,8 @@ st.set_page_config(
 )
 
 # --- SUPABASE CONFIGURATION ---
-SUPABASE_URL = "https://qqwhdtpvtmssyfeahyys.supabase.co"
-SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFxd2hkdHB2dG1zc3lmZWFoeXlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMzNDI0NjcsImV4cCI6MjA2ODkxODQ2N30.IsC6x-V6CQ3i454GBfWTsWkOIix9_xxtk4-f7K_uu4k"
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_ANON_KEY = st.secrets["SUPABASE_ANON_KEY"]
 
 # Initialize Supabase client
 @st.cache_resource
