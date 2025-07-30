@@ -346,7 +346,7 @@ def get_prioritet_kategori(score):
 
 # --- STREAMLIT APP ---
 def main():
-    st.title("🤖 RPA Prosessevaluering (Database hostes på Supabase)")
+    st.title("RPA Prosessevaluering (Database hostes på Supabase)")
     st.markdown("---")
     
     # Test Supabase connection
