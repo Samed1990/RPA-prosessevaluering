@@ -602,7 +602,7 @@ def get_business_criticality_score(forretningskritikalitet):
 
 # --- STREAMLIT APP ---
 def main():
-    st.title("🤖 RPA Prosessevaluering (Database hostes på Supabase)")
+    st.title("RPA Prosessevaluering (Database hostes på Supabase)")
     st.markdown("---")
     
     # Test Supabase connection
@@ -1354,3 +1354,4 @@ def vis_visualisering():
 # Kjør app
 if __name__ == "__main__":
     main()
+
