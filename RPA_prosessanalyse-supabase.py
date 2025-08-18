@@ -8,7 +8,7 @@ import json
 
 # Set page config as the first Streamlit command
 st.set_page_config(
-    page_title="Prosessevaluering-Automatisering i HK-dir",
+    page_title="Prosessevaluering: Automatisering i HK-dir",
     page_icon="",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -602,7 +602,7 @@ def get_business_criticality_score(forretningskritikalitet):
 
 # --- STREAMLIT APP ---
 def main():
-    st.title("Prosessevaluering-Automatisering i HK-dir")
+    st.title("Prosessevaluering: Automatisering i HK-dir")
     st.markdown("---")
     
     # Test Supabase connection
@@ -1354,6 +1354,7 @@ def vis_visualisering():
 # Kjør app
 if __name__ == "__main__":
     main()
+
 
 
 
