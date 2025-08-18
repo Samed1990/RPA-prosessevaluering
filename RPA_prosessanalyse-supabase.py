@@ -681,7 +681,7 @@ def vis_hovedside():
             behandlingstid = st.number_input("Behandlingstid (min)*", min_value=0, value=int(get_val('behandlingstid', 0)))
             feilrate = st.number_input("Feilrate (%)", min_value=0.0, max_value=100.0, value=float(get_val('feilrate', 0.0)), step=0.1)
 
-        kostnad_per_time = st.number_input("Kostnad per time (kr)", min_value=0, value=int(get_val('kostnad_per_time', 2000)))
+        kostnad_per_time = st.number_input("Kostnad per time (kr)", min_value=0, value=int(get_val('kostnad_per_time', 500)))
 
         # Teknisk informasjon
         st.markdown("**Teknisk informasjon**")
@@ -1354,4 +1354,5 @@ def vis_visualisering():
 # Kjør app
 if __name__ == "__main__":
     main()
+
 
