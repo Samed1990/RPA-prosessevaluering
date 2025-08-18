@@ -9,7 +9,7 @@ import json
 # Set page config as the first Streamlit command
 st.set_page_config(
     page_title="RPA Prosessevaluering",
-    page_icon="🤖",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -1354,5 +1354,6 @@ def vis_visualisering():
 # Kjør app
 if __name__ == "__main__":
     main()
+
 
 
